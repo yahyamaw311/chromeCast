@@ -66,10 +66,11 @@ document.getElementById("lower-volume").addEventListener('click', () => {
     //     const volumeRequest = new chrome.cast.media.VolumeRequest(currentVolume);
     //     currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError);
     // }
-    if(currentMediaSession && currentVolume > 0){
+    if(currentSession && currentVolume > 0){
         currentVolume -= 0.05
-        const volumeRequest = new chrome.cast.media.volumeRequest(currentVolume)
-        currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
+        const volume = new chrome.cast.volume()
+        const volumeRequest = new chrome.cast.media.volumeRequest(volume)
+        currentSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
     }
 
 })
