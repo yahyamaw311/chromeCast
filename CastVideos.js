@@ -16,9 +16,6 @@ const videoList = [
     'https://transfertco.ca/video/usa23_7_02.mp4'
     // Add more video URLs as needed
 ];
-
-
-
 document.getElementById('connectButton').addEventListener('click', () => {
     initializeApiOnly();
 });
@@ -59,7 +56,6 @@ document.getElementById('playBtn').addEventListener('click', () => {
         isPlaying = !isPlaying;
     }
 });
-
 document.getElementById("lower-volume").addEventListener('click', () => {
     // if (currentMediaSession.volume == 0.05) {
     //     currentVolume = 0;
@@ -77,7 +73,6 @@ document.getElementById("lower-volume").addEventListener('click', () => {
     }
 
 })
-
 
 function sessionListener(newSession) {
     currentSession = newSession;
