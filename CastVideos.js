@@ -38,6 +38,7 @@ document.getElementById('nextBtn').addEventListener('click', () => {
 });
 
 document.getElementById('previousBtn').addEventListener('click', () => {
+    console.log(currentSession)
     if (currentSession) {
         currentVideoIndex = (currentVideoIndex - 1) % videoList.length;
         loadMedia(videoList[currentVideoIndex]);
@@ -57,23 +58,24 @@ document.getElementById('playBtn').addEventListener('click', () => {
     }
 });
 document.getElementById("lower-volume").addEventListener('click', () => {
-    // if (currentMediaSession.volume == 0.05) {
-    //     currentVolume = 0;
-    //     const volumeRequest = new chrome.cast.media.VolumeRequest(currentVolume);
-    //     currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError);
-    // } else {
-    //     currentVolume -= 0.05;
-    //     const volumeRequest = new chrome.cast.media.VolumeRequest(currentVolume);
-    //     currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError);
-    // }
-    if(currentSession && currentVolume > 0){
+    if (currentSession && currentVolume > 0){
+        console.log(currentVolume)
         currentVolume -= 0.05
-        const volume = new chrome.cast.volume()
-        const volumeRequest = new chrome.cast.media.volumeRequest(volume)
-        currentSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
+        const volume = new chrome.cast.Volume(currentVolume, false)
+        const volumeRequest = new chrome.cast.media.VolumeRequest(volume)
+        currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
     }
+});
 
-})
+document.getElementById("upper-volume").addEventListener('click', () => {
+    if (currentSession && currentVolume < 100){
+        console.log(currentVolume)
+        currentVolume += 0.05
+        const volume = new chrome.cast.Volume(currentVolume, false)
+        const volumeRequest = new chrome.cast.media.VolumeRequest(volume)
+        currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
+    }
+});
 
 function sessionListener(newSession) {
     currentSession = newSession;
