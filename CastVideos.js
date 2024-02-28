@@ -67,7 +67,7 @@ document.getElementById("lower-volume").addEventListener('click', () => {
     //     currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError);
     // }
     if(currentMediaSession && currentVolume > 0){
-        currentVolume -= 5
+        currentVolume -= 0.05
         const volumeRequest = new chrome.cast.media.volumeRequest(currentVolume)
         currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
     }
