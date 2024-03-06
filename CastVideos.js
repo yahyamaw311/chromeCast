@@ -16,13 +16,17 @@ const videoList = [
     'https://transfertco.ca/video/usa23_7_02.mp4'
     // Add more video URLs as needed
 ];
-document.getElementById('connectButton').addEventListener('click', () => {
+
+var connectButton = document.getElementById('connectButton')
+connectButton.addEventListener('click', () => {
     initializeApiOnly();
 });
 
-document.getElementById('startBtn').addEventListener('click', () => {
+var startBtn = document.getElementById('startBtn')
+startBtn.addEventListener('click', () => {
     if (currentSession) {
         loadMedia(videoList[currentVideoIndex]);
+        startBtn.style.backgroundColor = "green"
     } else {
         alert('Connectez-vous sur chromecast en premier');
     }
@@ -81,6 +85,7 @@ function sessionListener(newSession) {
     currentSession = newSession;
     document.getElementById('startBtn').style.display = 'block';
     document.getElementById('nextBtn').style.display = 'block';
+    document.getElementById('connectButton').classList.add('connected'); // MODIFFICATION ICI PÔUR CHANGEMENTE DE COULEUR
 }
 
 
@@ -152,3 +157,12 @@ function formatTime(timeInSeconds) {
     const seconds = Math.floor(timeInSeconds % 60);
     return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
+
+document.getElementById('helpBtn').addEventListener('click', function() {
+    var instructionList = document.getElementById('instructionList');
+    if (instructionList.style.display === 'none') {
+        instructionList.style.display = 'block';
+    } else {
+        instructionList.style.display = 'none';
+    }
+});
