@@ -30,8 +30,9 @@ button:hover{
 
 .start{
     font-size: 25px;
-    border-radius: 50%;
-    margin-left: 42%;
+    border: none;
+    border-radius: 7px;
+
     margin-bottom: 100px;
 }
 
@@ -74,12 +75,6 @@ button:hover{
     width: 40px;
 }
 
-.controls #currentVolumeContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -91,7 +86,7 @@ button:hover{
   }
   
 .connected button {
-    animation: spin 2s linear;
+    animation: spin 2s linear infinite;
     background-color: green; 
   }
 
@@ -101,3 +96,4 @@ button:hover{
    margin-left: 375px;  
    font-size: 24px;
 }
+
