@@ -94,11 +94,4 @@ button:hover{
 .connected button {
     animation: spin 2s linear infinite;
     background-color: green; 
-  }
-
-
-.info{
-
-   margin-left: 375px;  
-   font-size: 24px;
 }
