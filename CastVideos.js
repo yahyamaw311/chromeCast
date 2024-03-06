@@ -5,6 +5,7 @@ let currentVideoIndex = 0;
 let currentVideoUrl;
 let updateInterval;
 let currentVolume = 0.5;
+let isMuted = false;
 const seekSlider = document.getElementById('seekSlider');
 const currentTimeElement = document.getElementById('currentTime');
 const totalTimeElement = document.getElementById('totalTime');
@@ -82,6 +83,13 @@ document.getElementById("upper-volume").addEventListener('click', () => {
         currentSession.setReceiverVolumeLevel(currentVolume, onMediaCommandSuccess, onError)
     }
 });
+
+document.getElementById("mute").addEventListener('click', () => {
+    isMuted = !isMuted
+
+    currentSession.setReceiverMuted(isMuted, onMediaCommandSuccess, onError)
+    
+})
 
 document.getElementById("volume-range").addEventListener('change', () => {
     console.log(document.getElementById('volume-range').value)
