@@ -13,7 +13,8 @@ const applicationID = '3DDC41A0';
 const videoList = [
     'https://transfertco.ca/video/DBillPrelude.mp4',
     'https://transfertco.ca/video/DBillSpotted.mp4',
-    'https://transfertco.ca/video/usa23_7_02.mp4'
+    'https://transfertco.ca/video/usa23_7_02.mp4',
+    "https://www.youtube.com/watch?v=uIauXFVABIQ"
     // Add more video URLs as needed
 ];
 
