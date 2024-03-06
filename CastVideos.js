@@ -62,13 +62,11 @@ document.getElementById('playBtn').addEventListener('click', () => {
     }
 });
 document.getElementById("lower-volume").addEventListener('click', () => {
-    session.setReceiverVolume(20);
     if (currentSession && currentVolume > 0){
         console.log(currentVolume)
         currentVolume -= 0.05
         const volume = new chrome.cast.Volume(currentVolume, false)
-        const volumeRequest = new chrome.cast.media.VolumeRequest(volume)
-        currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
+        currentSession.setReceiverVolumeLevel(volume, onMediaCommandSuccess, onError)
     }
 });
 
