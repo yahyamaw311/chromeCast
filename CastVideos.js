@@ -73,7 +73,7 @@ document.getElementById("lower-volume").addEventListener('click', () => {
 });
 
 document.getElementById("upper-volume").addEventListener('click', () => {
-    if (currentSession && currentVolume < 100){
+    if (currentSession && currentVolume < 1){
         console.log(currentVolume)
         currentVolume += 0.05
         const volume = new chrome.cast.Volume(currentVolume, false)
@@ -81,6 +81,10 @@ document.getElementById("upper-volume").addEventListener('click', () => {
         currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
     }
 });
+
+document.getElementById("volume-range").addEventListener('change', () => {
+    console.log(document.getElementById('volume-range').value)
+})
 
 function sessionListener(newSession) {
     currentSession = newSession;
