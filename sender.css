@@ -30,9 +30,8 @@ button:hover{
 
 .start{
     font-size: 25px;
-    border: none;
-    border-radius: 7px;
-
+    border-radius: 50%;
+    margin-left: 42%;
     margin-bottom: 100px;
 }
 
@@ -92,6 +91,6 @@ button:hover{
   }
   
 .connected button {
-    animation: spin 2s linear infinite;
+    animation: spin 2s linear;
     background-color: green; 
 }
