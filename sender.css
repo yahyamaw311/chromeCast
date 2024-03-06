@@ -16,8 +16,6 @@
 #topButton{
     display: flex;
     justify-content: space-between;
-}
-#mute{
     margin-right: 7px;
 }
 
