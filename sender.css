@@ -31,8 +31,14 @@ button:hover{
 .start{
     font-size: 25px;
     border-radius: 10px;
-    margin-bottom: 100px;
-    margin-left: 42%;
+    margin-bottom: 100px;   
+    
+}
+
+#startBtn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .play-pause-container{
