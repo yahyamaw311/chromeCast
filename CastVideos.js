@@ -61,24 +61,25 @@ document.getElementById('playBtn').addEventListener('click', () => {
         isPlaying = !isPlaying;
     }
 });
-document.getElementById("lower-volume").addEventListener('click', () => {
-        currentSession.setReceiverVolumeLevel(0.5, onMediaCommandSuccess, onError)
-    // if (currentSession && currentVolume > 0){
-    //     console.log(currentVolume)
-    //     currentVolume -= 0.05
-    //     const volume = new chrome.cast.Volume(currentVolume, false)
-    //     const volumeRequest = new chrome.cast.media.VolumeRequest(volume)
-    //     currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
-    // }
+document.getElementById("lower-volume").addEventListener('click', () =>  {
+    if (currentSession) {
+        if (currentVolume < 0.04) {
+            currentVolume = 0
+        } else {
+            currentVolume -= 0.04
+        }
+        currentSession.setReceiverVolumeLevel(currentVolume, onMediaCommandSuccess, onError)
+    }
 });
 
 document.getElementById("upper-volume").addEventListener('click', () => {
-    if (currentSession && currentVolume < 1){
-        console.log(currentVolume)
-        currentVolume += 0.05
-        const volume = new chrome.cast.Volume(currentVolume, false)
-        const volumeRequest = new chrome.cast.media.VolumeRequest(volume)
-        currentMediaSession.setVolume(volumeRequest, onMediaCommandSuccess, onError)
+    if (currentSession) {
+        if (currentVolume > 0.96) {
+            currentVolume = 1
+        } else {
+            currentVolume += 0.04
+        }
+        currentSession.setReceiverVolumeLevel(currentVolume, onMediaCommandSuccess, onError)
     }
 });
 
