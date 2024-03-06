@@ -13,7 +13,7 @@
     
 }
 
-.power-on{
+#topButton{
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +21,7 @@
     margin-right: 7px;
 }
 
-.power-on button{
+#topButton button{
     height: 40px;
     width: fit-content;
 
