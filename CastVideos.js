@@ -81,6 +81,7 @@ function sessionListener(newSession) {
     currentSession = newSession;
     document.getElementById('startBtn').style.display = 'block';
     document.getElementById('nextBtn').style.display = 'block';
+    document.getElementById('connectButton').classList.add('connected'); // MODIFFICATION ICI PÔUR CHANGEMENTE DE COULEUR
 }
 
 
@@ -152,3 +153,12 @@ function formatTime(timeInSeconds) {
     const seconds = Math.floor(timeInSeconds % 60);
     return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
+
+document.getElementById('helpBtn').addEventListener('click', function() {
+    var instructionList = document.getElementById('instructionList');
+    if (instructionList.style.display === 'none') {
+        instructionList.style.display = 'block';
+    } else {
+        instructionList.style.display = 'none';
+    }
+});
