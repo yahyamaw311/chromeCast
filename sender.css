@@ -13,6 +13,14 @@
     
 }
 
+.power-on{
+    display: flex;
+    justify-content: space-between;
+}
+#mute{
+    margin-right: 7px;
+}
+
 .power-on button{
     height: 40px;
     width: fit-content;
