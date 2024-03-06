@@ -16,13 +16,17 @@ const videoList = [
     'https://transfertco.ca/video/usa23_7_02.mp4'
     // Add more video URLs as needed
 ];
-document.getElementById('connectButton').addEventListener('click', () => {
+
+var connectButton = document.getElementById('connectButton')
+connectButton.addEventListener('click', () => {
     initializeApiOnly();
 });
 
-document.getElementById('startBtn').addEventListener('click', () => {
+var startBtn = document.getElementById('startBtn')
+startBtn.addEventListener('click', () => {
     if (currentSession) {
         loadMedia(videoList[currentVideoIndex]);
+        startBtn.style.backgroundColor = "green"
     } else {
         alert('Connectez-vous sur chromecast en premier');
     }
