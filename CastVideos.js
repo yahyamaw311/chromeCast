@@ -18,6 +18,10 @@ const videoList = [
     // Add more video URLs as needed
 ];
 
+// changements apportés a ce fichier:
+// on a ajouté trois fonctions: mute, augmenter le son et baisser le son
+// les changements se trouve de la ligne 70 à 98
+
 var connectButton = document.getElementById('connectButton')
 connectButton.addEventListener('click', () => {
     initializeApiOnly();
@@ -62,6 +66,7 @@ document.getElementById('playBtn').addEventListener('click', () => {
         isPlaying = !isPlaying;
     }
 });
+
 document.getElementById("lower-volume").addEventListener('click', () =>  {
     if (currentSession) {
         if (currentVolume < 0.04) {

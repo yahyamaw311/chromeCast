@@ -1,16 +1,25 @@
-.body-container{
+.remote-container{
     background: linear-gradient(rgb(189, 184, 184), rgb(210, 157, 235));
 
     width: 250px;
     height: 500px;
 
     margin: 150px auto;
-
     padding-left: 10px;
 
     border-radius: 10px;
-    
-    
+}
+.container{
+    display: flex;
+}
+
+.help{
+    margin-top: 150px;
+    width: 300px;
+}
+
+.help > button:hover{
+    background-color: red;
 }
 
 #topButton{
