@@ -1,0 +1,1340 @@
+{
+    "title": "elies",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 718,
+            "height": 599,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://127.0.0.1:5500/sender.html",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/sender.html",
+                    "title": "Document"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#connectButton > button"
+                ],
+                [
+                    "xpath///*[@id=\"connectButton\"]/button"
+                ],
+                [
+                    "pierce/#connectButton > button"
+                ]
+            ],
+            "offsetY": 19,
+            "offsetX": 6
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#startBtn"
+                ],
+                [
+                    "xpath///*[@id=\"startBtn\"]"
+                ],
+                [
+                    "pierce/#startBtn"
+                ]
+            ],
+            "offsetY": 26,
+            "offsetX": 38.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "i.fa-play"
+                ],
+                [
+                    "xpath///*[@id=\"playBtn\"]/button/i[2]"
+                ],
+                [
+                    "pierce/i.fa-play"
+                ]
+            ],
+            "offsetY": 5,
+            "offsetX": 3
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "i.fa-play"
+                ],
+                [
+                    "xpath///*[@id=\"playBtn\"]/button/i[2]"
+                ],
+                [
+                    "pierce/i.fa-play"
+                ]
+            ],
+            "offsetY": 5,
+            "offsetX": 3
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#nextBtn > i"
+                ],
+                [
+                    "xpath///*[@id=\"nextBtn\"]/i"
+                ],
+                [
+                    "pierce/#nextBtn > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 8
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#nextBtn > i"
+                ],
+                [
+                    "xpath///*[@id=\"nextBtn\"]/i"
+                ],
+                [
+                    "pierce/#nextBtn > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 8
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#nextBtn > i"
+                ],
+                [
+                    "xpath///*[@id=\"nextBtn\"]/i"
+                ],
+                [
+                    "pierce/#nextBtn > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 8
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#previousBtn"
+                ],
+                [
+                    "xpath///*[@id=\"previousBtn\"]"
+                ],
+                [
+                    "pierce/#previousBtn"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 27
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#nextBtn"
+                ],
+                [
+                    "xpath///*[@id=\"nextBtn\"]"
+                ],
+                [
+                    "pierce/#nextBtn"
+                ]
+            ],
+            "offsetY": 41.5,
+            "offsetX": 27
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 40.5,
+            "offsetX": 36
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#lower-volume"
+                ],
+                [
+                    "xpath///*[@id=\"lower-volume\"]"
+                ],
+                [
+                    "pierce/#lower-volume"
+                ]
+            ],
+            "offsetY": 38.5,
+            "offsetX": 9
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 12.5
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#upper-volume > i"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]/i"
+                ],
+                [
+                    "pierce/#upper-volume > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 2
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#upper-volume > i"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]/i"
+                ],
+                [
+                    "pierce/#upper-volume > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 2
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#upper-volume > i"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]/i"
+                ],
+                [
+                    "pierce/#upper-volume > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 2
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#upper-volume > i"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]/i"
+                ],
+                [
+                    "pierce/#upper-volume > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 2
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#upper-volume > i"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]/i"
+                ],
+                [
+                    "pierce/#upper-volume > i"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 2
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 36,
+            "offsetX": 21.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#mute"
+                ],
+                [
+                    "xpath///*[@id=\"mute\"]"
+                ],
+                [
+                    "pierce/#mute"
+                ]
+            ],
+            "offsetY": 36,
+            "offsetX": 21.5
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#upper-volume"
+                ],
+                [
+                    "xpath///*[@id=\"upper-volume\"]"
+                ],
+                [
+                    "pierce/#upper-volume"
+                ]
+            ],
+            "offsetY": 11.5,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "i.fa-play"
+                ],
+                [
+                    "xpath///*[@id=\"playBtn\"]/button/i[2]"
+                ],
+                [
+                    "pierce/i.fa-play"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 2
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "i.fa-play"
+                ],
+                [
+                    "xpath///*[@id=\"playBtn\"]/button/i[2]"
+                ],
+                [
+                    "pierce/i.fa-play"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 2
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#startBtn-container"
+                ],
+                [
+                    "xpath///*[@id=\"startBtn-container\"]"
+                ],
+                [
+                    "pierce/#startBtn-container"
+                ]
+            ],
+            "offsetY": 39,
+            "offsetX": 140
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "#startBtn"
+                ],
+                [
+                    "xpath///*[@id=\"startBtn\"]"
+                ],
+                [
+                    "pierce/#startBtn"
+                ]
+            ],
+            "offsetY": 34,
+            "offsetX": 31.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#connectButton i"
+                ],
+                [
+                    "xpath///*[@id=\"connectButton\"]/button/i"
+                ],
+                [
+                    "pierce/#connectButton i"
+                ]
+            ],
+            "offsetY": 11,
+            "offsetX": 17
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#startBtn-container i"
+                ],
+                [
+                    "xpath///*[@id=\"startBtn\"]/i"
+                ],
+                [
+                    "pierce/#startBtn-container i"
+                ]
+            ],
+            "offsetY": 11,
+            "offsetX": 4.5
+        }
+    ]
+}
