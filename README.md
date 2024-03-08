@@ -29,6 +29,7 @@ Au début, on avait mis le volume pour qu’il décrémente par 0.05 / 1 par cli
 | Correction du bogue du bouton vidéo précédente   | Assurer la fonctionnalité de navigation entre les vidéos         | Permettre de revenir à la vidéo précédente sans bug   | Problème non résolu                                  | Échec        |
 
 
+## Information Projet
 
 **Dispersion des tâches:**  
 On a codé la majorité dans le même ordi(celui de yahya). Lorsque j'avais un problème, les autres venaient m'aider en codant directement dans mon ordi, ce qui explique pourquoi la majorité des commits venaient de moi. Cependant, la contribution fut en général la même et on a chacun contribué à une charge de travail similaire, autant dans le CSS que le HTML et le javascipt. Le travail a été réparti de sorte que tout le monde travaille en même temps sur différentes fonctions pour enfin les commit à la fin (ce qui expliquait les problèmes de merge) de même que s'entraider en temps réel.
@@ -40,3 +41,24 @@ Les changements qu'on a fait dans le fichier CastVideos.js se trouvent entre la 
 Pour ce qui est de nos attentes, nous les avons dépassées en majorité, car nous pensons ne pas pouvoir utiliser la librarie, mais nous avons pu implémenter les fonctions que nous voulons telles que la fonction volume qui s'affiche à l'écran ainsi que le mute. Nous avons aussi implémenté des fonctions dont nous n'avons pas planifié lors de la conception telles que le bouton mute, mais il y a tout de même eu des limitations car nous avons enlevé quelques fonctionnalités planifiées au début comme le 10 secondes skip. Pour ce qui est de la télécommande, les attentes n'ont pas été atteinte, car nos tests ont suggéré de la confusion venant des boutons power et cast.
 
 
+
+
+## Maquette Projet 
+
+**V1**
+![manettev1](https://github.com/yahyamaw311/chromeCast/assets/112187141/bf19c0a0-fd9f-45eb-af2e-b7e5dddcffc8)
+
+**V1.1**
+![manettev2 2](https://github.com/yahyamaw311/chromeCast/assets/112187141/e403c859-2cdc-4125-909d-5582a6008f07)
+
+**V1.2**
+![manettev3](https://github.com/yahyamaw311/chromeCast/assets/112187141/ea1c8263-183a-47dd-b614-04a2e3720fb5)
+
+**V2**
+![Manettev2](https://github.com/yahyamaw311/chromeCast/assets/112187141/b07acda7-673c-4d30-8a53-c114a7853b3d)
+
+**V3**
+![MicrosoftTeams-image](https://github.com/yahyamaw311/chromeCast/assets/112187141/b3621c31-5253-4e37-9f58-7167e1acb87e)
+
+**Version Final**
+![Maquette_VersionFinal](https://github.com/yahyamaw311/chromeCast/assets/112187141/ffc32945-49c9-4ed1-96bb-cc8e2996b0f7)
