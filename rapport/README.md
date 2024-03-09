@@ -40,7 +40,11 @@ Les changements qu'on a fait dans le fichier CastVideos.js se trouvent entre la 
 **Attentes:**  
 Pour ce qui est de nos attentes, nous les avons dépassées en majorité, car nous pensons ne pas pouvoir utiliser la librarie, mais nous avons pu implémenter les fonctions que nous voulons telles que la fonction volume qui s'affiche à l'écran ainsi que le mute. Nous avons aussi implémenté des fonctions dont nous n'avons pas planifié lors de la conception telles que le bouton mute, mais il y a tout de même eu des limitations car nous avons enlevé quelques fonctionnalités planifiées au début comme le 10 secondes skip. Pour ce qui est de la télécommande, les attentes n'ont pas été atteinte, car nos tests ont suggéré de la confusion venant des boutons power et cast.
 
+## Conclusion
 
+En conclusion, les articles examinant les tests fonctionnels, les plans de test, les stratégies de test et l'exécution des tests ont grandement enrichi notre compréhension des pratiques cruciales dans le développement logiciel. Effectivement ces informations ont principalement retenu notre attention notamment pour le plan de test qui est une particularité que nous allons sérieusement envisager dans l’intégration de notre projet. Par exemple, pour définir les objectifs de test, nous pouvons discuter de différents moyens de comment un utilisateur peut trouver des méthodes de faire crasher l’application dans une fonction donnée et les noter sur une liste associée à cette fonction afin d’élaborer un plan pour l’exécution. Par la suite, nous assignons les tests en les répartissant entre les membres de l’équipe et on réajuste si nécessaire.
+
+![IMG_8335](https://github.com/yahyamaw311/chromeCast/assets/158065120/8620d2d2-fdf7-429c-89a2-8296cf88cdf3)
 
 
 ## Maquette Projet 
