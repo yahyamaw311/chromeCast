@@ -60,8 +60,10 @@ document.getElementById('playBtn').addEventListener('click', () => {
     if (currentMediaSession) {
         if (isPlaying) {
             currentMediaSession.pause(null, onMediaCommandSuccess, onError);
+            document.getElementById("playIcon").class = "fa-solid fa-pause";
         } else {
             currentMediaSession.play(null, onMediaCommandSuccess, onError);
+            document.getElementById("playIcon").class = "fa-solid fa-play";
         }
         isPlaying = !isPlaying;
     }
